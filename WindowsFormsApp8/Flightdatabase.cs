@@ -10,11 +10,11 @@ namespace WindowsFormsApp8
         internal List<flightabl> flighttables { get; private set; }
         public void Initialize()
         {
-            flighttables = new List<flightabl>
+            flighttables = new List<flightabl>()
             {
-                new flightabl(new Passenger("fasfa")),
-                new flightabl(new Passenger("asfasf")),
-                new flightabl(new Passenger("dfhshdga")),
+               
+                new flightabl(new Passenger("Валера"),new Airplane("F-35")),
+                new flightabl(new Passenger("Дима"),new Airplane("B-2"))
 
 
 

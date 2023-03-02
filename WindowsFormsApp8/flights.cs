@@ -67,5 +67,10 @@ namespace WindowsFormsApp8
 
             dataGridView1.DataSource = _flight.flighttables.ToList();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
