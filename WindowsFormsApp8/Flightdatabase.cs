@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+
+
 namespace WindowsFormsApp8
 
 {
@@ -10,9 +12,11 @@ namespace WindowsFormsApp8
         {
             flighttables = new List<flightabl>
             {
-                new flightabl("fasfa")
-             
-               
+                new flightabl(new Passenger("fasfa")),
+                new flightabl(new Passenger("asfasf")),
+                new flightabl(new Passenger("dfhshdga")),
+
+
 
 
             };

@@ -9,9 +9,9 @@
 
 
 
-        public Passenger passengers
+        public string passengers
         {
-            get => _passenger.Name;
+            get { return _passenger.Name != null ? _passenger.Name : "Не назначено"; }
         }
 
 
