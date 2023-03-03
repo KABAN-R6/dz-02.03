@@ -71,6 +71,7 @@
     <Compile Include="Passenger.cs" />
     <Compile Include="Path.cs" />
     <Compile Include="Place.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stock.cs">

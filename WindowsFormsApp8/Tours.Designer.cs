@@ -56,10 +56,11 @@ namespace WindowsFormsApp8
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(540, 169);
             this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(3, 13);
+            this.button2.Location = new System.Drawing.Point(20, 13);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 3;
@@ -99,6 +100,7 @@ namespace WindowsFormsApp8
             this.Controls.Add(this.panel1);
             this.Name = "Tours";
             this.Text = "Tours";
+            this.Load += new System.EventHandler(this.Tours_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

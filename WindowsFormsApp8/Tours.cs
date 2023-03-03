@@ -12,9 +12,17 @@ namespace WindowsFormsApp8
 {
     public partial class Tours : Form
     {
-        public Tours()
+        private travel_mapdatabase _tours;
+        public Tours() 
         {
+            
             InitializeComponent();
+
+
+            _tours = new travel_mapdatabase();
+            _tours.Initialize();
+
+            dataGridView1.DataSource = _tours.travel_Maptabls.ToList();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -25,6 +33,21 @@ namespace WindowsFormsApp8
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Tours_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
