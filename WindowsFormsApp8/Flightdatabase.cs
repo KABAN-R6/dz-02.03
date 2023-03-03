@@ -12,9 +12,10 @@ namespace WindowsFormsApp8
         {
             flighttables = new List<flightabl>()
             {
-               
-                new flightabl(new Passenger("Валера"),new Airplane("F-35")),
-                new flightabl(new Passenger("Дима"),new Airplane("B-2"))
+
+                new flightabl(new Passenger("Дима"),new Airplane("B-2"),new place (21),new Path("Москва-Абакан")),
+                new flightabl(new Passenger("Дима"),new Airplane("F-35"),new place (21),new Path("Абакан-Москва"))
+
 
 
 
