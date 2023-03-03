@@ -29,6 +29,7 @@ namespace WindowsFormsApp8
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(flights));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -81,7 +82,7 @@ namespace WindowsFormsApp8
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(654, 41);
+            this.button4.Location = new System.Drawing.Point(609, 239);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 8;
@@ -91,7 +92,7 @@ namespace WindowsFormsApp8
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(654, 12);
+            this.button5.Location = new System.Drawing.Point(713, 239);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 9;
@@ -101,7 +102,7 @@ namespace WindowsFormsApp8
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(654, 129);
+            this.button6.Location = new System.Drawing.Point(713, 200);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 10;
@@ -111,7 +112,7 @@ namespace WindowsFormsApp8
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(654, 158);
+            this.button7.Location = new System.Drawing.Point(609, 200);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 11;
@@ -124,6 +125,8 @@ namespace WindowsFormsApp8
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -133,6 +136,7 @@ namespace WindowsFormsApp8
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "flights";
             this.Text = "flights";
             this.Load += new System.EventHandler(this.flights_Load);
