@@ -23,5 +23,16 @@ namespace WindowsFormsApp8
             flights newform = new flights();
             newform.Show();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            InitializeComponent();
+
+
+            _employs = new travel_mapdatabase();
+            _employs.Initialize();
+
+            dataGridView1.DataSource = _tours.travel_Maptabls.ToList();
+        }
     }
 }
