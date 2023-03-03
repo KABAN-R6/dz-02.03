@@ -85,6 +85,8 @@
     <Compile Include="Tours.Designer.cs">
       <DependentUpon>Tours.cs</DependentUpon>
     </Compile>
+    <Compile Include="travel mapdatabase.cs" />
+    <Compile Include="travel-maptabl.cs" />
     <EmbeddedResource Include="Airports.resx">
       <DependentUpon>Airports.cs</DependentUpon>
     </EmbeddedResource>

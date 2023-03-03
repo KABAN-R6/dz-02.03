@@ -32,7 +32,7 @@ namespace WindowsFormsApp8
         }
         public string Path
         {
-            get { return _passenger.Name != null ? _passenger.Name : "Не назначено"; }
+            get { return _path.Name != null ? _path.Name : "Не назначено"; }
         }
 
 

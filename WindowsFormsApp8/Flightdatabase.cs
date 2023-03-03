@@ -14,7 +14,7 @@ namespace WindowsFormsApp8
             {
 
                 new flightabl(new Passenger("Дима"),new Airplane("B-2"),new place (21),new Path("Москва-Абакан")),
-                new flightabl(new Passenger("Дима"),new Airplane("F-35"),new place (21),new Path("Абакан-Москва"))
+                new flightabl(new Passenger("Коля"),new Airplane("F-35"),new place (21),new Path("Абакан-Москва"))
 
 
 
