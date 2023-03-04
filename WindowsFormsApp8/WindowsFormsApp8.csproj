@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adress.cs" />
+    <Compile Include="age.cs" />
     <Compile Include="Airoportsdatabase.cs" />
     <Compile Include="Airoportstable.cs" />
     <Compile Include="Airplane.cs" />
@@ -57,6 +58,7 @@
       <DependentUpon>Airports.cs</DependentUpon>
     </Compile>
     <Compile Include="bulding.cs" />
+    <Compile Include="employee.cs" />
     <Compile Include="employess.cs">
       <SubType>Form</SubType>
     </Compile>

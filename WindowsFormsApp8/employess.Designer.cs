@@ -86,6 +86,7 @@ namespace WindowsFormsApp8
             this.Controls.Add(this.button1);
             this.Name = "employess";
             this.Text = "employs";
+            this.Load += new System.EventHandler(this.employess_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
