@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Airoporst.cs" />
+    <Compile Include="adress.cs" />
     <Compile Include="Airoportsdatabase.cs" />
     <Compile Include="Airoportstable.cs" />
     <Compile Include="Airplane.cs" />
@@ -56,6 +56,7 @@
     <Compile Include="Airports.Designer.cs">
       <DependentUpon>Airports.cs</DependentUpon>
     </Compile>
+    <Compile Include="bulding.cs" />
     <Compile Include="employess.cs">
       <SubType>Form</SubType>
     </Compile>

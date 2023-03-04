@@ -8,14 +8,14 @@ namespace WindowsFormsApp8
 {
     class Airoportsdatabase
     {
-        internal List<travel_maptabl> travel_Maptabls { get; private set; }
+        internal List<Airoportstable> Airoportstables { get; private set; }
         public void Initialize()
         {
-            travel_Maptabls = new List<travel_maptabl>()
+            Airoportstables = new List<Airoportstable>()
             {
 
-                new travel_maptabl(new Point("Москва"),new Point("Екатеринбург"),new Point("Санкт-Петербург")),
-                new travel_maptabl(new Point("Новосибирск"),new Point("Казань"),new Point("Москва"))
+                new Airoportstable(new Adress("ул. Дружбы Народов д. 59"),new bulding("Международный аэропорт Абакан")),
+                new Airoportstable(new Adress("2-я Рейсовая ул., 2, корп. 5, посёлок Внуково"),new bulding("Международный аэропорт Внуково"))
 
 
 
