@@ -33,5 +33,20 @@ namespace WindowsFormsApp8
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = _employs.employs.Where(u => u.empluyeeName.Contains(textBox1.Text)).ToList();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+        }
     }
 }
