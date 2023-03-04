@@ -86,6 +86,9 @@ namespace WindowsFormsApp8
             
         }
 
-       
+        private void button3_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = _flight.flighttables.OrderBy(u => u.Place).ToList();
+        }
     }
 }
