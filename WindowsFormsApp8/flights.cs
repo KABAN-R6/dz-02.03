@@ -31,7 +31,8 @@ namespace WindowsFormsApp8
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            dataGridView1.DataSource = _flight.flighttables.Where(u => u.passengers.Contains(textBox1.Text)).ToList();
+            dataGridView1.DataSource = _flight.flighttables.Where(u => u.PlaneName.Contains(textBox2.Text)).ToList();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -65,7 +66,8 @@ namespace WindowsFormsApp8
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text = "";
+            textBox2.Text = "";
             dataGridView1.DataSource = _flight.flighttables.ToList();
         }
 
@@ -73,5 +75,17 @@ namespace WindowsFormsApp8
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+       
     }
 }
