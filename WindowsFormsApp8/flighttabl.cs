@@ -14,6 +14,7 @@ namespace WindowsFormsApp8
         private Airplane _airplane;
         private place _place;
         private Path _path;
+        private Price _price;
 
 
 
@@ -34,19 +35,23 @@ namespace WindowsFormsApp8
         {
             get { return _path.Name != null ? _path.Name : "Не назначено"; }
         }
+        public int price
+        {
+            get => _price.price;
+        }
 
 
 
 
 
-
-        public flightabl(Passenger passenger ,Airplane airplane, place Place, Path path)
+        public flightabl(Passenger passenger ,Airplane airplane, place Place, Path path,Price price)
         {
 
             _passenger = passenger;
             _airplane = airplane;
             _place = Place;
             _path = path;
+            _price = price;
 
         }
     }

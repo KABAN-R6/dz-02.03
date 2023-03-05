@@ -12,9 +12,17 @@ namespace WindowsFormsApp8
 {
     public partial class Stock : Form
     {
+        private Stockdatabase _stock;
         public Stock()
         {
+            
             InitializeComponent();
+
+
+            _stock = new Stockdatabase();
+            _stock.Initialize();
+
+            dataGridView1.DataSource = _stock.stocktables.ToList();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -22,6 +30,11 @@ namespace WindowsFormsApp8
             this.Visible = false;
             flights newform = new flights();
             newform.Show();
+        }
+
+        private void Stock_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

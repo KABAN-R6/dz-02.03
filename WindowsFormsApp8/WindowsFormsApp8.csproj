@@ -80,6 +80,7 @@
     <Compile Include="Path.cs" />
     <Compile Include="Place.cs" />
     <Compile Include="Point.cs" />
+    <Compile Include="Price.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stock.cs">
@@ -88,6 +89,8 @@
     <Compile Include="Stock.Designer.cs">
       <DependentUpon>Stock.cs</DependentUpon>
     </Compile>
+    <Compile Include="Stockdatabase.cs" />
+    <Compile Include="Stocktable.cs" />
     <Compile Include="Tours.cs">
       <SubType>Form</SubType>
     </Compile>
